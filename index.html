@@ -7,21 +7,58 @@
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <h1>Welcome to this AI poem generator</h1>
-    <footer>
-      This AI project was created by
-      <a href="https://github.com/AnaBRibeiro" target="_blank">Ana Ribeiro</a>.
-      It is hosted on
-      <a
-        href="https://shecodes-project-ai-poem-generator.netlify.app/"
-        target="_blank"
-        >Netlify</a
-      >
-      and is available as open source on
-      <a href="https://github.com/AnaBRibeiro/ai-poem-generator" target="_blank"
-        >GitHub</a
-      >.
-    </footer>
+    <div class="container">
+      <header>
+        <div>
+          <h1>Poem generator</h1>
+          <p>
+            Coded with ❤️ by
+            <a href="https://github.com/AnaBRibeiro" target="_blank"
+              >Ana Ribeiro</a
+            >, as a project for <span>SheCodes Plus AI Workshop</span>
+          </p>
+        </div>
+        <a href="https://www.shecodes.io/" target="_blank"
+          ><img src="images/shecodes.png" alt="SheCodes logo"
+        /></a>
+      </header>
+      <div class="form-container">
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem"
+            autofocus
+            autocomplete="off"
+            required
+          />
+          <input type="submit" value="Generate poem" />
+        </form>
+        <p class="hint">e.g., flower, Paris, cheese, ...</p>
+      </div>
+      <div class="poem-container">
+        <p>
+          Verse 1 of the poem<br />
+          Verse 2 of the poem<br />
+          Verse 3 of the poem<br />
+          Verse 4 of the poem<br />
+          Signature
+        </p>
+      </div>
+      <footer>
+        This project is hosted on
+        <a
+          href="https://shecodes-project-ai-poem-generator.netlify.app/"
+          target="_blank"
+          >Netlify</a
+        >
+        and is available as open source on
+        <a
+          href="https://github.com/AnaBRibeiro/ai-poem-generator"
+          target="_blank"
+          >GitHub</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
