@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Poem Generator</title>
   </head>
@@ -26,7 +27,7 @@
         </p>
       </header>
       <div class="form-container">
-        <form>
+        <form id="poem-generator-form">
           <input
             class="form-user-instructions"
             type="text"
@@ -43,15 +44,7 @@
         </form>
         <p class="hint">e.g., flower, Paris, cheese, ...</p>
       </div>
-      <div class="poem-container">
-        <p class="poem">
-          SheCodes, a community strong and bright,<br />
-          Women learning to code, taking flight,<br />
-          With determination and support in sight,<br />
-          Together we shine, in love for tech we unite.<br />
-        </p>
-        <p class="poem-author">SheCodes AI</p>
-      </div>
+      <div class="poem-container" id="poem-text"></div>
       <footer>
         This project is hosted on
         <a
