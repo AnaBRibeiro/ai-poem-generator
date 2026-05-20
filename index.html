@@ -9,40 +9,48 @@
   <body>
     <div class="container">
       <header>
-        <div>
+        <div class="introduction">
           <h1>Poem generator</h1>
-          <p>
-            Coded with ❤️ by
-            <a href="https://github.com/AnaBRibeiro" target="_blank"
-              >Ana Ribeiro</a
-            >, as a project for <span>SheCodes Plus AI Workshop</span>
-          </p>
+          <div>
+            <a href="https://www.shecodes.io/" target="_blank"
+              ><img src="images/shecodes.png" alt="SheCodes logo"
+            /></a>
+          </div>
         </div>
-        <a href="https://www.shecodes.io/" target="_blank"
-          ><img src="images/shecodes.png" alt="SheCodes logo"
-        /></a>
+        <p class="about">
+          Coded with 💜 by
+          <a href="https://github.com/AnaBRibeiro" target="_blank"
+            >Ana Ribeiro</a
+          >, as a project for
+          <span class="shecodes-workshop">SheCodes Plus AI Workshop</span>
+        </p>
       </header>
       <div class="form-container">
         <form>
           <input
+            class="form-user-instructions"
             type="text"
             placeholder="Enter the topic of the poem"
             autofocus
             autocomplete="off"
             required
           />
-          <input type="submit" value="Generate poem" />
+          <input
+            class="form-submit-button"
+            type="submit"
+            value="Generate poem"
+          />
         </form>
         <p class="hint">e.g., flower, Paris, cheese, ...</p>
       </div>
       <div class="poem-container">
-        <p>
-          Verse 1 of the poem<br />
-          Verse 2 of the poem<br />
-          Verse 3 of the poem<br />
-          Verse 4 of the poem<br />
-          Signature
+        <p class="poem">
+          SheCodes, a community strong and bright,<br />
+          Women learning to code, taking flight,<br />
+          With determination and support in sight,<br />
+          Together we shine, in love for tech we unite.<br />
         </p>
+        <p class="poem-author">SheCodes AI</p>
       </div>
       <footer>
         This project is hosted on
