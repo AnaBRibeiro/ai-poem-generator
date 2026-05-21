@@ -13,6 +13,22 @@ a {
     margin: 0px;
 }
 
+.blink {
+    animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
 .container {
     line-height: 1.5;
     margin: 60px auto;
@@ -96,6 +112,10 @@ img {
     line-height: 2;
     margin-bottom: 45px;
     padding: 10px 20px;
+}
+
+.poem-container-hidden {
+    display: none;
 }
 
 .shecodes-workshop {
