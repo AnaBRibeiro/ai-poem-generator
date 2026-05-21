@@ -40,6 +40,7 @@ form {
     border: none;
     border-radius: 50px;
     color: #FFFFFF;
+    cursor: pointer;
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
     margin-left: 10px;
@@ -80,22 +81,19 @@ img {
     justify-content: space-between;
 }
 
-/*
-.poem {
-    line-height: 2;
-}
 
 .poem-author {
     color:#885DF1;
     font-weight: bold;
+    margin-bottom: 0px;
 }
-*/
 
 .poem-container {
     background: #FFFFFF;
     border-left: 3px solid #885DF1;
     box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
     font-size: 16px;
+    line-height: 2;
     margin-bottom: 45px;
     padding: 10px 20px;
 }
